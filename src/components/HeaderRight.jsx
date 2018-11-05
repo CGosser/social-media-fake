@@ -6,7 +6,7 @@ function HeaderRight(prop){
   const headerRightStyles = {
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'flex-end',
     width: '50%'
   }
   return (

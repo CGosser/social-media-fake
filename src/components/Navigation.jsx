@@ -14,19 +14,27 @@ function Navigation(props){
 
 export default Navigation;
 
+
+
+
+
 // import React from "react";
 // import NavLinks from "./NavLinks";
 //
 // function Navigation(){
 //   const links = ["Home", "Notifications", "Messages"];
+//   const linkStyles= {
+//       marginRight: '10px',
+//       border: '1px solid black',
+//       padding: '5px'
+//     }
 //   return (
 //     <div>
 //       <NavLinks
-//         link= links.map(link => {
-//           return link;
-//         });
+//         link= {links.map(function(link, index) {
+//           return <li key={index} style={linkStyles}>{link}</li>;
+//         })}
 //         />
-//     <h1>Nav works</h1>
 //     </div>
 //   );
 // }

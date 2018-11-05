@@ -5,7 +5,7 @@ import HeaderRight from "./HeaderRight";
 function Header(prop){
   const headerStyles = {
     width: '100%',
-    borderBottom: '1px solid black',
+    borderBottom: '2px solid lightgray',
     display: 'flex',
     justifyContent: 'space-between'
   }
