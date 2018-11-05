@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import ProfileContainer from "./ProfileContainer";
+import BodyLeftContainer from "./BodyLeftContainer";
 
 function App(){
   return (
     <div>
       <Header/>
-      <ProfileContainer/>
+      <BodyLeftContainer/>
     </div>
   );
 }

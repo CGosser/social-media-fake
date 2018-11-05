@@ -5,7 +5,7 @@ import ProfileBackground from "./ProfileBackground";
 
 function ProfileContainer(prop){
   const profileContainerStyles = {
-    width: '36%',
+    // width: '100%',
     height: '200px',
     position: 'relative'
   }
