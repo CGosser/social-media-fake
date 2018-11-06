@@ -7,7 +7,8 @@ function Header(prop){
     width: '100%',
     borderBottom: '2px solid lightgray',
     display: 'flex',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    marginBottom: '20px'
   }
   return (
     <div style={headerStyles}>

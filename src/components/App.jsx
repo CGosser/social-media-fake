@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import BodyLeftContainer from "./BodyLeftContainer";
+import MainContentContainer from "./MainContentContainer";
 
 function App(){
   return (
     <div>
       <Header/>
-      <BodyLeftContainer/>
+      <MainContentContainer/>
     </div>
   );
 }

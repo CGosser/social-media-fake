@@ -5,9 +5,10 @@ import AboutMe from "./AboutMe";
 function BodyLeftContainer(props){
 
   const bodyLeftContainerStyles= {
-    width: '36%',
+    width: '32%',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    marginLeft: '40px'
   }
   return (
     <div style={bodyLeftContainerStyles}>
